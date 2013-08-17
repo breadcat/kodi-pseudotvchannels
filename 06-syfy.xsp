@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<smartplaylist type="episodes">
+    <name>Syfy</name>
+    <match>all</match>
+    <rule field="genre" operator="is">
+        <value>Science-Fiction</value>
+    </rule>
+    <rule field="year" operator="greaterthan">
+        <value>2000</value>
+    </rule>
+    <rule field="path" operator="doesnotcontain">
+        <value>anime</value>
+    </rule>
+    <rule field="path" operator="doesnotcontain">
+        <value>Star Trek</value>
+    </rule>
+    <rule field="path" operator="doesnotcontain">
+        <value>Mystery Science Theater</value>
+    </rule>
+    <rule field="path" operator="doesnotcontain">
+        <value>Outer Limits</value>
+    </rule>
+    <rule field="path" operator="doesnotcontain">
+        <value>Twilight Zone</value>
+    </rule>
+    <limit>150</limit>
+    <order direction="ascending">random</order>
+</smartplaylist>

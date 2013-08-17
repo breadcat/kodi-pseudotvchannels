@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<smartplaylist type="episodes">
+    <name>MST3KTV</name>
+    <match>all</match>
+    <rule field="tvshow" operator="startswith">
+        <value>Mystery Science Theater</value>
+    </rule>
+    <limit>150</limit>
+    <order direction="ascending">random</order>
+</smartplaylist>
