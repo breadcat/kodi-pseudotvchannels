@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <smartplaylist type="episodes">
-    <name>Docubox</name>
+    <name>Boomerang</name>
     <match>all</match>
-    <rule field="genre" operator="is">Documentary</rule>
-    <rule field="genre" operator="doesnotcontain">Show</rule>
+    <rule field="genre" operator="is">Animation</rule>
+    <rule field="path" operator="doesnotcontain">anime</rule>
+    <rule field="year" operator="lessthan">2000</rule>
     <limit>150</limit>
     <rule field="lastplayed" operator="notinthelast">3 weeks</rule>
     <order direction="ascending">random</order>

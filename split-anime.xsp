@@ -2,7 +2,5 @@
 <smartplaylist type="tvshows">
     <name>split-anime</name>
     <match>all</match>
-    <rule field="path" operator="contains">
-        <value>anime</value>
-    </rule>
+    <rule field="path" operator="contains">anime</rule>
 </smartplaylist>

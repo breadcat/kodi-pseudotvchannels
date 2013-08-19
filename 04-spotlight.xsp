@@ -2,9 +2,8 @@
 <smartplaylist type="movies">
     <name>Spotlight</name>
     <match>all</match>
-    <rule field="rating" operator="greaterthan">
-        <value>7.5</value>
-    </rule>
+    <rule field="rating" operator="greaterthan">7.75</rule>
     <limit>150</limit>
+    <rule field="lastplayed" operator="notinthelast">3 weeks</rule>
     <order direction="ascending">random</order>
 </smartplaylist>

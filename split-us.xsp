@@ -2,40 +2,15 @@
 <smartplaylist type="episodes">
     <name>split-us</name>
     <match>one</match>
-    <rule field="studio" operator="is">
-        <value>Netflix</value>
-    </rule>
-    <rule field="studio" operator="is">
-        <value>HBO</value>
-    </rule>
-    <rule field="studio" operator="is">
-        <value>MTV</value>
-    </rule>
-    <rule field="studio" operator="is">
-        <value>FOX</value>
-    </rule>
-    <rule field="studio" operator="is">
-        <value>FOX</value>
-    </rule>
-    <rule field="studio" operator="is">
-        <value>FXX</value>
-    </rule>
-    <rule field="studio" operator="is">
-        <value>Comedy Central</value>
-    </rule>
-    <rule field="studio" operator="is">
-        <value>NBC</value>
-    </rule>
-    <rule field="studio" operator="is">
-        <value>Cartoon Network</value>
-    </rule>
-    <rule field="studio" operator="is">
-        <value>ABC</value>
-    </rule>
-    <rule field="studio" operator="is">
-        <value>FX</value>
-    </rule>
-    <rule field="studio" operator="is">
-        <value>IFC</value>
-    </rule>
+    <rule field="studio" operator="is">Netflix</rule>
+    <rule field="studio" operator="is">HBO</rule>
+    <rule field="studio" operator="is">MTV</rule>
+    <rule field="studio" operator="is">FOX</rule>
+    <rule field="studio" operator="startswith">FX</rule>
+    <rule field="studio" operator="is">Comedy Central</rule>
+    <rule field="studio" operator="is">NBC</rule>
+    <rule field="studio" operator="is">Cartoon Network</rule>
+    <rule field="studio" operator="is">ABC</rule>
+    <rule field="studio" operator="is">IFC</rule>
+    <limit>250</limit>
 </smartplaylist>
