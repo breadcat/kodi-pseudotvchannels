@@ -4,7 +4,7 @@
     <match>all</match>
     <rule field="genre" operator="is">Science-Fiction</rule>
     <rule field="genre" operator="isnot">Animation</rule>
-    <rule field="year" operator="lessthan">2000</rule>
+    <rule field="airdate" operator="before">2000</rule>
     <rule field="path" operator="doesnotcontain">anime</rule>
     <rule field="path" operator="doesnotcontain">Star Trek</rule>
     <rule field="path" operator="doesnotcontain">Mystery Science Theater</rule>
