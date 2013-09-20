@@ -3,6 +3,7 @@
     <name>Forefront Cinema</name>
     <match>all</match>
     <rule field="genre" operator="doesnotcontain">Sport</rule>
+    <rule field="genre" operator="doesnotcontain">Documentary</rule>
     <rule field="rating" operator="greaterthan">6.5</rule>
     <rule field="year" operator="lessthan">2020</rule>
     <rule field="year" operator="greaterthan">2010</rule>

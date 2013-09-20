@@ -4,6 +4,9 @@
     <match>all</match>
     <rule field="rating" operator="greaterthan">7.75</rule>
     <limit>150</limit>
+    <rule field="path" operator="doesnotcontain">standup</rule>
     <rule field="lastplayed" operator="notinthelast">3 weeks</rule>
+    <rule field="genre" operator="isnot">Documentary</rule>
+    <rule field="genre" operator="isnot">Erotic</rule>
     <order direction="ascending">random</order>
 </smartplaylist>
