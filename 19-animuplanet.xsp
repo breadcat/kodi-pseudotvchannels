@@ -2,9 +2,7 @@
 <smartplaylist type="episodes">
     <name>Animu Planet</name>
     <match>all</match>
-    <rule field="path" operator="contains">
-        <value>anime</value>
-    </rule>
+    <rule field="path" operator="contains">anime</rule>
     <limit>250</limit>
     <order direction="ascending">random</order>
 </smartplaylist>
