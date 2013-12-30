@@ -5,6 +5,5 @@
     <rule field="path" operator="contains">Outer Limits</rule>
     <rule field="path" operator="contains">Twilight Zone</rule>
     <limit>150</limit>
-    <rule field="lastplayed" operator="notinthelast">3 weeks</rule>
     <order direction="ascending">random</order>
 </smartplaylist>
