@@ -8,5 +8,6 @@
     <rule field="lastplayed" operator="notinthelast">3 weeks</rule>
     <rule field="genre" operator="isnot">Documentary</rule>
     <rule field="genre" operator="isnot">Erotic</rule>
+    <rule field="genre" operator="isnot">Short</rule>
     <order direction="ascending">random</order>
 </smartplaylist>
