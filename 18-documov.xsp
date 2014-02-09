@@ -6,6 +6,6 @@
     <rule field="genre" operator="isnot">Comedy</rule>
     <rule field="genre" operator="isnot">Action</rule>
     <rule field="lastplayed" operator="notinthelast">2 weeks</rule>
-    <limit>50</limit>
+    <limit>150</limit>
     <order direction="ascending">random</order>
 </smartplaylist>

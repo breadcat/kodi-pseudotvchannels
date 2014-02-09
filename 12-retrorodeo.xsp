@@ -4,7 +4,7 @@
     <match>all</match>
     <rule field="genre" operator="doesnotcontain">Sport</rule>
     <rule field="genre" operator="doesnotcontain">Documentary</rule>
-    <rule field="rating" operator="greaterthan">6.0</rule>
+    <rule field="rating" operator="greaterthan">6.5</rule>
     <rule field="year" operator="lessthan">1995</rule>
     <rule field="year" operator="greaterthan">1970</rule>
     <rule field="path" operator="doesnotcontain">standup</rule>

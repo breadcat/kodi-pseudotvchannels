@@ -3,6 +3,6 @@
     <name>Animu Planet</name>
     <match>all</match>
     <rule field="path" operator="contains">anime</rule>
-    <limit>250</limit>
+    <limit>150</limit>
     <order direction="ascending">random</order>
 </smartplaylist>
